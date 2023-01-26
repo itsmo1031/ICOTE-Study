@@ -1,5 +1,4 @@
 # Q19 연산자 끼워 넣기
-# TODO: DFS/BFS로 다시 풀기
 
 from itertools import permutations
 from collections import deque
