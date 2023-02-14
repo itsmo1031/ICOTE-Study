@@ -14,7 +14,7 @@ for __ in range(M):
 
 X, K = map(int, input().split())
 
-# 플로이드 워셜 알고리즘 숳애
+# 플로이드 워셜 알고리즘 수행
 for k in range(1, N + 1):
     for a in range(1, N + 1):
         for b in range(1, N + 1):
