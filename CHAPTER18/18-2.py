@@ -19,9 +19,13 @@ G = int(input())
 P = int(input())
 parents = [*range(G + 1)]
 
+result = 0
+
 for i in range(P):
     plane_parent = find_parent(parents, int(input()))
     if plane_parent == 0:
-        print(i)
         break
+    result += 1
     union_parent(parents, plane_parent, plane_parent - 1)
+
+print(result)
